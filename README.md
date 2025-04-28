@@ -1,4 +1,4 @@
-# StellarLink Backend
+# StellarLink Service
 
 StellarLink is a lightweight and scalable chat backend service built with Spring Boot.  
 It provides real-time messaging, file sharing, authentication, and auditing capabilities.  
@@ -62,7 +62,7 @@ This project is the first version (MVP) — focused purely on building strong ba
 
 ```bash
 # Clone the repository
-git clone https://github.com/ndkhanh17/stellarlink-service.git
+git clone https://github.com/khanhnd17/stellarlink-service.git
 cd stellarlink-service
 
 # Build the project
