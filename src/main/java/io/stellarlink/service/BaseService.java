@@ -1,4 +1,14 @@
 package io.stellarlink.service;
 
-public interface BaseService {
+import java.util.Optional;
+
+public interface BaseService<T, ID> {
+
+  T create(T entity);
+
+  Optional<T> getById(ID id);
+
+  T update(ID id, T updatedEntity);
+
+  void delete(ID id);
 }

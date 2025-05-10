@@ -1,4 +1,4 @@
-package io.stellarlink.dto;
+package io.stellarlink.model.dto;
 
 public class FileAttachmentDTO {
 }
