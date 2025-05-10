@@ -9,5 +9,4 @@ public class StellarLinkApplication {
   public static void main(String[] args) {
     SpringApplication.run(StellarLinkApplication.class, args);
   }
-
 }
